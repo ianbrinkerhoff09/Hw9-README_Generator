@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+//function returns license badges according to the user inputed response.
 function renderLicenseBadge(license) {
 	if (license === "The Unlicense") {
 		return "https://img.shields.io/badge/license-Unlicense-blue.svg";
@@ -17,8 +17,7 @@ function renderLicenseBadge(license) {
 	}
 }
 
-
-// TODO: Create a function to generate markdown for README
+//Function builds the readme with inputed user data
 function generateMarkdown(data) {return `
 # ${data.title}
 ## Description
@@ -40,15 +39,15 @@ ${data.contributers}
 ## License
 The project uses the [${data.license}](${renderLicenseLink(data.license)}) license.
 ## Contact
-Link to my github: [${data.username}](https://github.com/${data.username})
+My Github account: [${data.username}](https://github.com/${data.username})
 
-Feel free to contact me via email at [${data.useremail}](mailto:${data.useremail})
+If you have any questions, comments, or concerns, feel free to contact me via email at [${data.useremail}](mailto:${data.useremail})
 `;
 }
 
 module.exports = generateMarkdown;
 
-// TODO: Create a function that returns the license link
+//function returns license links according to the user inputed response.
 function renderLicenseLink(license) {
 	if (license === "The Unlicense") {
 		return "http://unlicense.org";

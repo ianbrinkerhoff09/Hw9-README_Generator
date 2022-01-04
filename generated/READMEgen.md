@@ -1,9 +1,9 @@
 
-# README Generator
+# Team Profile
 ## Description
 [![Do WTF You Want To](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
 
-Get prompted with questions in terminal to help make README files easier to write.
+Keep track of company employees
 ## Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,9 +11,9 @@ Get prompted with questions in terminal to help make README files easier to writ
 - [License](#license)
 - [Contact](#contact)
 ## Installation
-Clone file to local machine. Run index.js with node/npm and prompt sould start up in terminal
+clone to local machine and run 'npm i'
 ## Usage
-Node index.js in terminal ocnce you are in proper folder. Prompts will start appearing in terminal. 
+run 'npm start'
 ## Contributors
 
 ## License
